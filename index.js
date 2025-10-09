@@ -16,7 +16,7 @@ mongoose
 
 
 const allowed_origins_str = process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173';
-const allowedOrigins = allowed_origins_str.split(',');
+const allowedOrigins = allowed_origins_str.split(' ');
 
 
 const corsOptions = {
