@@ -3,8 +3,7 @@
 
 ## 🔹 `Wisdom-of-Ashtavakra-Backend` — *Backend Repository*
 
-```markdown
-# 🌐 Wisdom of Ashtavakra — Backend
+## 🌐 Wisdom of Ashtavakra — Backend
 
 This is the backend for the Wisdom of Ashtavakra spiritual web app — built with Node.js and Express.
 
@@ -35,10 +34,10 @@ This is the backend for the Wisdom of Ashtavakra spiritual web app — built wit
 | `GET /tags/:tag`      | Get verses under a tag       |
 
 ## 🔑 Environment Variables (`.env`)
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_jwt_secret
-GOOGLE_API_KEY=your_gemini_api_key
+- PORT=8080
+- MONGO_URI=your_mongodb_connection
+- JWT_SECRET=your_jwt_secret
+- GOOGLE_API_KEY=your_gemini_api_key
 
 ## 🚀 Start Server
 
